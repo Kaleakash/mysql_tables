@@ -83,6 +83,9 @@ insert into employee values(147,'Alberto','Errazuriz','1997-03-10','SA_MAN',1200
 insert into employee values(148,'Gerald','Cambrault','1999-10-15','SA_MAN',11000,100,80);
 insert into employee values(149,'Eleni','Zlotkey','2000-01-27','SA_MAN',10500	,100,80);
 insert into employee values(150,'Peter','Tucker','1997-01-27','SA_REP',10000,145,80);
+insert into employee values(151,'Raj','Deep','1998-02-27','SA_REP',10000,145,null);
+insert into employee values(152,'Ajay','Kumar','1995-11-10',null,12000,145,90);
+
 
 
 create table college(cid int, name varchar(10),subject varchar(10),city varchar(10),numberOfStd int,primary key(cid));
